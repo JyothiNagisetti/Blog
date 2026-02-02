@@ -21,13 +21,8 @@
             margin-top: 20px;
         }
 
-        h1 {
+        h1, h2 {
             color: #0d47a1;
-        }
-
-        h2 {
-            color: #0d47a1;
-            margin-top: 40px;
         }
 
         p {
@@ -52,51 +47,94 @@
         .buttons a:hover {
             background-color: #0d47a1;
         }
+
+        /* Hobbies Section */
+        .hobbies-section {
+            margin-top: 50px;
+        }
+
+        .hobby-card {
+            background-color: white;
+            padding: 20px;
+            margin: 25px auto;
+            width: 85%;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .hobby-card h3 {
+            color: #0d47a1;
+        }
+
+        .hobby-card iframe {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            border: none;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <h1>NAGISETTI JYOTHI</h1>
+    <h1>NAGISETTI JYOTHI</h1>
 
-        <!-- Profile Photo -->
-        <img src="images/profile.jpg" alt="Jyothi Photo" width="180">
+    <img src="images/profile.jpg" alt="Jyothi Photo" width="180">
 
-        <p>
-            AI & Data Science Graduate | Aspiring Software Developer
-        </p>
+    <p>AI & Data Science Graduate | Aspiring Software Developer</p>
 
-        <p>
-            Hi 👋 I’m Jyothi.  
-            Welcome to my personal blog where I share my learning journey,
-            projects, and career growth in technology.
-        </p>
+    <p>
+        Hi 👋 I’m Jyothi.  
+        Welcome to my personal blog where I share my learning journey,
+        projects, and career growth in technology.
+    </p>
 
-        <!-- Buttons -->
-        <div class="buttons">
-            <a href="resume.html" target="_blank">Resume</a>
-            <a href="https://www.linkedin.com/in/nagisetti-jyothi-24433622b/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/" target="_blank">GitHub</a>
+    <div class="buttons">
+        <a href="resume.html" target="_blank">Resume</a>
+        <a href="https://www.linkedin.com/in/nagisetti-jyothi-24433622b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+    </div>
+
+    <h2>Let’s Connect 🤝</h2>
+
+    <p>📧 Email: <a href="mailto:jyothinagisetti474@gmail.com">jyothinagisetti474@gmail.com</a></p>
+    <p>📞 Phone: +91 9963972401</p>
+
+    <!-- Hobbies -->
+    <h2>My Hobbies 🎯</h2>
+
+    <div class="hobbies-section">
+
+        <div class="hobby-card">
+            <h3>📊 Data Analysis</h3>
+            <p>I enjoy analyzing data and finding meaningful insights.</p>
+            <iframe 
+    src="https://www.youtube.com/embed/ua-CiDNNj30"
+    allowfullscreen>
+</iframe>
+
         </div>
 
-        <!-- Let's Connect -->
-        <h2>Let’s Connect 🤝</h2>
+        <div class="hobby-card">
+            <h3>💻 Coding</h3>
+            <p>I like learning Python and building small projects.</p>
+            <iframe src="https://www.youtube.com/embed/rfscVS0vtbw" allowfullscreen></iframe>
+        </div>
 
-        <p>
-            📧 Email:
-            <a href="mailto:jyothinagisetti474@gmail.com">
-                jyothinagisetti474@gmail.com
-            </a>
-        </p>
+        <div class="hobby-card">
+            <h3>☕ Dream Café</h3>
+            <p>Someday I want to run my own café with a peaceful vibe.</p>
+        <iframe 
+    src="https://www.youtube.com/watch?v=JewUPM5Is1w"
+    allowfullscreen>
+</iframe>
+        </div>
 
-        <p>
-            📞 Phone: +91 9963972401
-        </p>
-
-        
     </div>
+
+</div>
 
 </body>
 </html>
